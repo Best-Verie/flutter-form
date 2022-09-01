@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget {
       title: appTitle,
       home: Scaffold(
         appBar: AppBar(
-          title: Text(appTitle),
+          title: const Text(appTitle),
         ),
-        body: MyCustomForm(),
+        body: const MyCustomForm(),
       ),
     );
   }
